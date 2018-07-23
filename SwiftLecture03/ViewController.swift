@@ -10,7 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbName: UILabel!
+    @IBOutlet weak var btnConfirm: UIButton!
+    
+    @IBAction func btnConfirmClick(_ sender: Any) {
+        
+        lbName.text="ssw5086"
+    }
     override func viewDidLoad() {
+       
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
